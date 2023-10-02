@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-02T11:57:18.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2065856000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.browserOpen()"
+            }
+          },
+          {
+            "result": {
+              "duration": 476611000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.browserMaximise()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate google saerch is working with config file input",
+        "description": "",
+        "id": "validate-google-search-funcationality-when-input-froom-config-file;validate-google-saerch-is-working-with-config-file-input",
+        "after": [
+          {
+            "result": {
+              "duration": 220727000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 698464000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on google page from configuration",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_is_on_google_page_from_configuration()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114259000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters input searchtext from config file",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_enters_input_searchtext_from_config_file()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243004000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click search icon or hits Enter key",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_click_search_icon_or_hits_Enter_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1455562000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "searched searched Phrase results appeared on the page",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.searched_results_appeared_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1724897000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click first real non - Ad result",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.click_first_real_non_Ad_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1014255000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate page open successfully",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.validate_page_open_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46379000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate page contains initial searched Input Phrase searched Phrase",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.validate_page_contains_initial_searched_Input_Phrase()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Google Search Funcationality when input froom config file",
+    "description": "",
+    "id": "validate-google-search-funcationality-when-input-froom-config-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearchFromConfigFile.feature",
+    "tags": []
+  }
+]
